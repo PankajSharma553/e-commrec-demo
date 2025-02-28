@@ -194,6 +194,10 @@
 }
 
 .falshSec_wrapper .btn{
+    display: flex;
+    margin-inline: auto;
+    max-width: 240px;
+    width: 100%;
 margin-bottom: 60px;
 
 }
@@ -201,3 +205,4 @@ margin-bottom: 60px;
  border-bottom: 0.5px solid rgba(0, 0, 0, 30%);
  margin-bottom: 5rem;
 }
+
