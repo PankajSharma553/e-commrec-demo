@@ -1,0 +1,124 @@
+.hero {
+    margin-bottom: 140px;
+}
+
+.hero_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_left {
+    max-width: 232px;
+    width: 100%;
+    padding-right: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 30%);
+    padding-top: 40px;
+}
+
+.hero_leftTabSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.hero_leftTabSec:last-child {
+    margin-bottom: 0;
+}
+
+.hero_righImg {
+    max-width: 496px;
+    width: 100%;
+}
+
+.hero_right {
+    max-width: 892px;
+    width: 100%;
+    margin-top: 40px;
+    /* background-color: #000000; */
+}
+
+.hero_rightWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 38px;
+    padding-left: 64px;
+    background-color: #000000;
+    /* padding: 58px 0 47px 64px; */
+}
+
+.hero_righContent {
+    max-width: 294px;
+    width: 100%;
+}
+
+.hero_img {
+    max-width: 476px;
+    width: 100%;
+}
+
+.hero_rightTopbarWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 190px;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.hero_rightTopbarWrap p {
+    color: white;
+}
+
+.hero_righContent h1 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 22px;
+    color: #fff;
+}
+
+.hero_rightTopbarIcon {
+    max-width: 40px;
+    width: 100%;
+}
+
+.hero_righContent button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.hero_righContent button span {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-underline-position: under;
+}
+
+.hero_righContent button i {
+    font-size: 24px;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(255, 255, 255, 50%) !important;
+    width: 12px !important;
+    height: 12px !important;
+
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #DB4444 !important;
+    border: 2px solid #FFFFFF;
+    width: 14px !important;
+    height: 14px !important;
+}

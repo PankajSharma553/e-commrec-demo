@@ -1,0 +1,157 @@
+.footer {
+    background-color: #000000;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 80px 60px;
+}
+
+.footer_logoLink {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.footer_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FAFAFA;
+    margin-bottom: 24px;
+}
+
+.footer_copyright {
+    padding-bottom: 24px;
+}
+
+.footer_copyright--content {
+    padding-top: 16px;
+    border-top: 1px solid #FFFFFF;
+    text-align: center;
+}
+
+.footer_copyright--content p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer_email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border: 1.5px solid #FAFAFA;
+    border-radius: 4px;
+    padding: 16px 15px 12px 16px;
+}
+
+.footer_emailInput {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    color: #FAFAFA;
+}
+
+.footer_emailInput::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FAFAFA;
+    opacity: 40%;
+}
+
+.footer_email i {
+    font-size: 24px;
+    color: white;
+    transform: rotate(45deg);
+}
+
+.footer_socialPlatfomr p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FAFAFA;
+    opacity: 70%;
+    margin-bottom: 8px;
+}
+
+.footer_socialPlatfomrWarp {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.footer_qrImg {
+    width: 76px;
+    height: 76px;
+}
+
+.footer_googlePlayImg {
+    max-width: 110px;
+    width: 100%;
+    height: 40;
+}
+
+.footer_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.footer_socialWrap {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer_socilaLink {
+    width: 24px;
+    height: 24px;
+}
+
+.footer_left {
+    max-width: 217px;
+    width: 100%;
+}
+
+.footer_support {
+    max-width: 175px;
+    width: 100%;
+}
+
+.footer_navbar {
+    max-width: 123px;
+    width: 100%;
+}
+
+.footer_right {
+    max-width: 198px;
+    width: 100%;
+}

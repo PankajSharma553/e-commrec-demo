@@ -1,0 +1,203 @@
+.falshSec_topbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 40px;
+}
+
+.falshSec_tobbarLeft {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.countdown {
+    max-width: 302px;
+    width: 100%;
+}
+
+.countdown_wrapp {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 38px;
+}
+
+.countdown_sec span {
+    display: inline-block;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.countdown_sec h3 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.falshSec_cardDisc {
+    border-radius: 4px;
+    background-color: #DB4444;
+    padding: 4px 12px;
+    text-align: center;
+    display: inline-block;
+}
+
+.falshSec_cardDisc p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.falshSec_cardDetail {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.falshSec_card {
+    max-width: 270px;
+    width: 100%;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+.falshSec_inner{
+    margin-bottom: 60px;
+}
+.falshSec_cardImg {
+    width: 100%;
+    max-width: 270px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.falshSec_cardBtm h4 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.falshsec_prizeOff {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.falshsec_prizeOff p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.falshsec_prizeOffDic {
+    color: #DB4444;
+}
+
+.falshsec_prizeOffActtal {
+    color: rgba(0, 0, 0, 50%);
+    text-decoration: line-through;
+
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stars_wrapp {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+}
+
+.star i {
+    width: 20px;
+    height: 20px;
+    color: #FFAD33;
+}
+
+.ratings {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 50%);
+}
+
+.falshSec_cardDisc {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.falshSec_cardDetails {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.falshSec_cardDetail {
+    margin-bottom: 8px;
+}
+
+.falshSec_cardDetail:last-child {
+    margin-bottom: 0;
+}
+
+.falshesc_btn {
+    width: 100%;
+    transform: translateY(100px);
+    transition: all 0.2s;
+    background-color: #000000;
+    padding: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+}
+
+.falshSec_cardImg img {
+    margin-top: auto;
+}
+
+.falshSec_card:hover .falshesc_btn {
+    transform: translateY(0px);
+}
+
+.falshSec_wrapper .btn{
+margin-bottom: 60px;
+
+}
+.falshSec_wrapper {
+ border-bottom: 0.5px solid rgba(0, 0, 0, 30%);
+ margin-bottom: 5rem;
+}

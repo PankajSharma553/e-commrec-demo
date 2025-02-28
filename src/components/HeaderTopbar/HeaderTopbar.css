@@ -1,0 +1,45 @@
+.headderTopbar {
+    background-color: var(--black-color);
+    padding-block: 12px;
+}
+
+.headerTobar_wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.headerTobar_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 859px;
+    width: 100%;
+}
+
+.headerTobar_left p {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.headerTobar_left p a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--white-color);
+}
+
+select#language {
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+select#language:focus {
+    border: none;
+    outline: none;
+}
